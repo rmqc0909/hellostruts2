@@ -53,5 +53,12 @@
             <result name="success">/successLogin.jsp</result>
             <result name="error">/errorLogin.jsp</result>
         </action>
+
+        <action name="empinfo"
+                class="com.tutorialspoint.struts2.Employee"
+                method="execute">
+            <result name="input">/ValidationIndex.jsp</result>
+            <result name="success">/ValidationSuccess.jsp</result>
+        </action>
     </package>
 </struts>
